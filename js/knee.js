@@ -166,23 +166,7 @@
 								img : "./images/knee/35.jpg"
 							},
 							
-							{
-								num : "66",
-								name: "KNEE CAGES (ACL 좌,우)",
-								eng: "KNEE CAGES 각도기 ACL 66",
-								size : "좌 S,M,L,XL,XXL/우 S,M,L,XL,XXL",
-								color: "",
-								img : "./images/knee/66.jpg"
-							},
 							
-							{
-								num : "67",
-								name: "KNEE CAGES (PCL 좌,우)",
-								eng: "KNEE CAGES 각도기 PCL 67",
-								size : "좌 S,M,L,XL,XXL/우 S,M,L,XL,XXL",
-								color: "",
-								img : "./images/knee/66.jpg"
-							},
 							
 						]; // 상품 정보를 모아놓은 객체
 
