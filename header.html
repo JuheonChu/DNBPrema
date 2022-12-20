@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="./css/footer.css" />
+<link rel="stylesheet" type="text/css" href="./css/header.css" />
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	crossorigin="anonymous">
+
+	
+<link rel ="icon" sizes ="152x152" href="./images/logo.jpg"/>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	$(function() {
+		$(".searchBar").focus(function() {
+			this.placeholder = "";
+			$(".dark").show();
+		});
+		$(".searchBar").blur(function() {
+			this.placeholder = "검색";
+			$(".dark").hide();
+		});
+	});
+</script>
+<style>
+.dark {
+	display: none;
+	z-index: 1000px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 775px;
+	background-color: rgba(0, 0, 0, 0.4);
+	overflow-x: hidden;
+}
+</style>
+
+
+</head>
+<body>
+	<div class="subMenu">
+	
+		<ul class="others">
+			
+		</ul>
+		
+		<div>
+		<a href = "./index.html">
+		<img src= "./images/logo.jpg" style="height:75px;"/>
+		</a>
+		</div>
+		
+		
+	</div>
+	
+	
+	<div class="menu">
+		<span class="logo"><a></a></span>
+		<ul class="mainMenu">
+			<li><a href="./wrist.html">손목</a></li>
+			<li><a href="./ankle.html">발목</a></li>
+			<li><a href="./knee.html">무릎</a></li>
+			<li><a href="./waist.html">허리</a></li>
+			<li><a href="./finger.html">핑거</a></li>
+			<li><a href="./elbow.html">엘보우</a></li>
+			<li><a href="./shoulder.html">어깨</a></li>
+			<li><a href="./splint.html">프리마 스프린트</a></li>
+			<li><a href="./cast.html">프리마 캐스트</a></li>
+			<li><a href="./cooling.html">찜질류</a></li>
+
+			<li><a href="./others.html">기타</a></li>
+		</ul>
+		
+		<!-- 검색기능 필요 x 
+		<div class="searchDiv">
+			<form action="../nike/ProductController?command=surf" method="post">
+				<input type="search" placeholder="검색" onblur="this.placeholder='검색'" name="search" class="searchBar" />
+				<input type="submit" id="searchIcon" value="" />
+			</form>
+		
+		</div>
+		-->
+</div>
+
+
+
+</body>
+</html>

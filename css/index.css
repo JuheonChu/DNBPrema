@@ -1,0 +1,172 @@
+@media ( max-width : 600px) {
+	 @charset "UTF-8";
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+	.container h1 {
+		text-align: center;
+		font-weight: bold;
+	}
+
+	/* Banner Style */
+	.banner {
+		background-image: url(../images/thumbnail.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		padding: 75px 0px;
+		background-position: center center;
+	}
+	.banner .caption {
+		background-color: rgba(245, 245, 245, 0.8);
+		position: relative;
+		top: -65px;
+		left: -10px;
+		padding: 20px;
+		max-width: 200px;
+		max-height:280px;
+	}
+	.banner .caption h2 {
+		margin-top: 0px;
+		margin-bottom: 15px;
+		font-size: 45px;
+		font-weight: 700;
+		color: #1e1e1e;
+	}
+	.banner .caption .line-dec {
+		width: 100%;
+		height: 5px;
+		background-color: #3a8bcd;
+	}
+	.banner .caption p {
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	/*Banner CSS ENDS HERE*/
+
+	/*D&B's BEST ITEM CSS STARTS HERE*/
+	.best-item {
+		margin-top: 15px;
+	}
+	.best-item h1 {
+		text-align: center;
+		font-weight: bold;
+		font-size: 30px;
+		background: linear-gradient(blue, pink);
+	}
+	.best-products {
+		text-align: center;
+		font-weight: bold;
+		font-size: 18px;
+		width: 100%
+	}
+	.best-products .bp {
+		display: inline-block;
+		width: 49%;
+	}
+	.bp img {
+		width: 100%;
+	}
+	.bp .bp-info {
+		text-align: left;
+	}
+	.bp .product-eng {
+		text-align: left;
+	}
+	.bp .product-size {
+		text-align: left;
+	}
+	.header {
+		position: fixed;
+		top: 0;
+		/* width: 100% */
+		left: 0;
+		right: 0;
+	}
+}
+
+@media ( min-width : 1000px) { /*desktop*/
+	@charset "UTF-8";
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+	.container h1 {
+		text-align: center;
+		font-weight: bold;
+	}
+
+	/* Banner Style */
+	.banner {
+		background-image: url(../images/thumbnail.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		padding: 75px 0px;
+		background-position: center center;
+	}
+	.banner .caption {
+		background-color: rgba(245, 245, 245, 0.8);
+		position: relative;
+		top: 0px;
+		left: 0px;
+		padding: 30px;
+		max-width: 300px;
+	}
+	.banner .caption h2 {
+		margin-top: 0px;
+		margin-bottom: 15px;
+		font-size: 45px;
+		font-weight: 700;
+		color: #1e1e1e;
+	}
+	.banner .caption .line-dec {
+		width: 180px;
+		height: 5px;
+		background-color: #3a8bcd;
+	}
+	.banner .caption p {
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	/*Banner CSS ENDS HERE*/
+
+	/*D&B's BEST ITEM CSS STARTS HERE*/
+	.best-item {
+		margin-top: 15px;
+	}
+	.best-item h1 {
+		text-align: center;
+		font-weight: bold;
+		font-size: 30px;
+		background: linear-gradient(blue, pink);
+	}
+	.best-products {
+		text-align: center;
+		font-weight: bold;
+		font-size: 18px;
+		width: 100%
+	}
+	.best-products .bp {
+		display: inline-block;
+		width: 20%;
+	}
+	.bp img {
+		width: 100%;
+	}
+	.bp .bp-info {
+		text-align: left;
+	}
+	.bp .product-eng {
+		text-align: left;
+	}
+	.bp .product-size {
+		text-align: left;
+	}
+	.header {
+		position: fixed;
+		top: 0;
+		/* width: 100% */
+		left: 0;
+		right: 0;
+	}
+}

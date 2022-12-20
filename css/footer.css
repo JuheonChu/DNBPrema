@@ -1,0 +1,471 @@
+@charset "UTF-8";
+
+
+
+@media (max-width: 600px){
+.footer-content{
+   width: 90%;
+   margin-left : auto;
+   margin-right : auto;
+   padding : 40px 0;
+   vertical-align: middle;
+   position: relative;
+   
+   text-align:center;
+}
+
+.footer-content div{
+   padding-right : 20px;
+   width: 200px;
+   height: 300px;
+   display: inline !important;
+}
+
+.footer-content div ul{
+   list-style: none;
+   width: 200px;
+}
+
+.footer-content div ul li a{
+   text-decoration: none;
+   color : white;
+   font-size: 10px;
+   }
+   
+.footer-content div ul li{
+   text-decoration: none;
+   color : white;
+   font-size: 10px;
+   }
+   
+.listTitle{
+   font-size: 12px;
+   font-weight: bold;
+   text-align:left;
+   display:inline-block;
+}
+
+
+
+
+
+.company a{
+   color:#999999;
+}
+.company a:hover{
+   color:white;
+   text-decoration: none;
+}
+.company{
+   float:left;   
+}
+.company-info{
+   float:left;
+}
+.company-info a{
+   color:white;
+}
+.company-info a:hover{
+   color:white;
+   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.footer_wrap {
+    width: 100%;
+    padding: 30px 0 45px;
+    background: #f8f9fa;
+    background-color:white;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 1.5%;
+    background-color: white;
+}
+
+.footer>div {
+    float: left;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.footer>div>p:nth-child(2) {
+    margin: 10px 0 8px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    word-break: keep-all;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer>div>p:last-child {
+    font-size: 11px;
+    color: #999999;
+}
+
+.footer>.brand-site {
+    float: right;
+    position: relative;
+}
+
+
+.mmenu, .mmenu_list {
+    display: none;
+}
+
+.footer>div>ul::after {
+    display: block;
+    clear: both;
+    content: '';
+    width: 100%;
+}
+
+.footer>div>ul>li>a {
+    font-size: 13px;
+    color: #666666;
+}
+
+.footer>div>ul>li::after {
+    display: inline-block;
+    content: '|';
+    font-size: 10px;
+    color: #cccccc;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.footer>div>ul>li:last-child::after {
+    display: none;
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+element.style {
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+#wrapper {
+    width: 100%;
+    height: 100%;
+    font-family: 'NanumBarunGothic';
+}
+body {
+    background-color: #fff;
+    *word-break: break-all;
+    -ms-word-break: break-all;
+    font-family: 'Roboto','Noto Sans KR',sans-serif;
+}
+
+html {
+    overflow-y: scroll;
+    font-size: 10px;
+}
+.footer::after {
+    display: block;
+    clear: both;
+    content: '';
+    width: 100%;
+}
+
+.footer>h1 {
+    float: left;
+    margin-right: 92px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.footer>div>ul>li {
+    float: left;
+}
+
+
+	
+}
+@media ( min-width : 1000px) { /*desktop*/
+.footer-content{
+   width: 90%;
+   margin-left : auto;
+   margin-right : auto;
+   padding : 40px 0;
+   vertical-align: middle;
+   position: relative;
+   
+   text-align:center;
+}
+
+.footer-content div{
+   padding-right : 20px;
+   width: 200px;
+   height: 300px;
+   display: inline !important;
+}
+
+.footer-content div ul{
+   list-style: none;
+   width: 200px;
+}
+
+.footer-content div ul li a{
+   text-decoration: none;
+   color : white;
+   font-size: 10px;
+   }
+   
+.footer-content div ul li{
+   text-decoration: none;
+   color : white;
+   font-size: 10px;
+   }
+   
+.listTitle{
+   font-size: 12px;
+   font-weight: bold;
+   text-align:left;
+   display:inline-block;
+}
+
+
+
+
+
+.company a{
+   color:#999999;
+}
+.company a:hover{
+   color:white;
+   text-decoration: none;
+}
+.company{
+   float:left;   
+}
+.company-info{
+   float:left;
+}
+.company-info a{
+   color:white;
+}
+.company-info a:hover{
+   color:white;
+   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.footer_wrap {
+    width: 100%;
+    padding: 30px 0 45px;
+    background: #f8f9fa;
+    background-color:white;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 1.5%;
+    background-color: white;
+}
+
+.footer>div {
+    float: left;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.footer>div>p:nth-child(2) {
+    margin: 10px 0 8px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    word-break: keep-all;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer>div>p:last-child {
+    font-size: 11px;
+    color: #999999;
+}
+
+.footer>.brand-site {
+    float: right;
+    position: relative;
+}
+
+
+.mmenu, .mmenu_list {
+    display: none;
+}
+
+.footer>div>ul::after {
+    display: block;
+    clear: both;
+    content: '';
+    width: 100%;
+}
+
+.footer>div>ul>li>a {
+    font-size: 13px;
+    color: #666666;
+}
+
+.footer>div>ul>li::after {
+    display: inline-block;
+    content: '|';
+    font-size: 10px;
+    color: #cccccc;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.footer>div>ul>li:last-child::after {
+    display: none;
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+element.style {
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+#wrapper {
+    width: 100%;
+    height: 100%;
+    font-family: 'NanumBarunGothic';
+}
+body {
+    background-color: #fff;
+    *word-break: break-all;
+    -ms-word-break: break-all;
+    font-family: 'Roboto','Noto Sans KR',sans-serif;
+}
+
+html {
+    overflow-y: scroll;
+    font-size: 10px;
+}
+.footer::after {
+    display: block;
+    clear: both;
+    content: '';
+    width: 100%;
+}
+
+.footer>h1 {
+    float: left;
+    margin-right: 92px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.footer>div>ul>li {
+    float: left;
+}
+
+
+
+}
+

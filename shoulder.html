@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel ="icon" sizes ="152x152" href="./images/logo.jpg"/>
+<script src="https://code.jquery.com/jquery-3.6.0.js"
+	integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+	crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function() {
+		$.ajax({
+			url : "header.html",
+
+			success : function(result) {
+
+				var v1 = $('.header').html();
+
+				$(".header").html(result + v1);
+
+			}
+		});
+
+		$('.footer').load("footer.html");
+	});
+</script>
+
+<link rel="stylesheet" type="text/css" href="./css/index.css" />
+<link rel="stylesheet" type="text/css" href="./css/product.css" />
+
+<title>D&B 어깨</title>
+<style>
+
+</style>
+</head>
+<body>
+
+
+	<div class="header">
+
+
+		<div class="product_menu">
+			<span class="sub_product_name">D&B 어깨</span>
+
+		</div>
+
+
+
+	</div>
+
+
+	<div class="content">
+		<div style="margin-top: 50px;">
+
+			<div class="explain">
+				<!-- css style -> width: 200px; float: left 용도로만 쓸 예정 -->
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+
+
+			<div class="list">
+				<ul id="testList">
+					<li class="proList"><script type="text/javascript" src="js/shoulder.js"></script></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<div class="footer">
+			<!-- footer.html이 포함되는 부분 -->
+		</div>
+</body>
+</html>
